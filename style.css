@@ -255,9 +255,9 @@ ul {
 .limon{
     text-decoration: none;
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
     .list-item {
-        font-style: 16px;
+        font-style: 14px;
     }
 
     .header-txt {
@@ -321,7 +321,7 @@ ul {
 
     .ifd {
         text-decoration: none;
-        height: 453px;
+        width: 100%;
     }
 
     .kilovat {
@@ -352,10 +352,7 @@ ul {
         width: auto;
         height: auto;
     }
-    .limon {
-        text-decoration: none;
-        margin-left: -30px;
-    }
+   
     .ikj{
         width: 100px;
     }
@@ -366,6 +363,7 @@ ul {
         background: #444444;
         border: 1px solid #616161;
         padding: 10px 0px;
+        width: 50%;
     }
     .lok {
         background: #444444;
@@ -373,5 +371,6 @@ ul {
         width: 310px;
         height: 95px;
         border: 1px solid #616161;
+        width: 50%;
     }
 }
