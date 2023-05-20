@@ -40,9 +40,11 @@ ul {
 .list-item:hover {
     color: #d1a954;
 }
-.ifd{
+
+.ifd {
     text-decoration: none;
 }
+
 .number-border {
     border-bottom: 2px solid #D1A954;
 }
@@ -250,7 +252,9 @@ ul {
     margin-top: 10px;
 
 }
-
+.limon{
+    text-decoration: none;
+}
 @media (max-width: 575px) {
     .list-item {
         font-style: 16px;
@@ -314,5 +318,60 @@ ul {
     .respImg {
         display: none;
     }
-  
+
+    .ifd {
+        text-decoration: none;
+        height: 453px;
+    }
+
+    .kilovat {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 41px;
+        line-height: 52px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #D1A954;
+        margin-left: -13px;
+    }
+    .hijo {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding-top: 35px;
+        width: 200px;
+    }
+    #isa {
+        background-image: url(image/Rectangle\ 28.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: auto;
+        height: auto;
+    }
+    .limon {
+        text-decoration: none;
+        margin-left: -30px;
+    }
+    .ikj{
+        width: 100px;
+    }
+    #po{
+        margin-left: -100px;
+    }
+    .input {
+        background: #444444;
+        border: 1px solid #616161;
+        padding: 10px 0px;
+    }
+    .lok {
+        background: #444444;
+        border: 1px solid #616161;
+        width: 310px;
+        height: 95px;
+        border: 1px solid #616161;
+    }
 }
